@@ -4,9 +4,10 @@
     align-items: center;
     background-color: #003580;
    width: 100%;
+   
 }
 .headerlogo{
-    margin-left: 10%;
+    margin-left: 4%;
 }
 .headerh1{
     color: wheat;
@@ -18,7 +19,7 @@ nav {
    justify-content: space-around;
    align-items: center;
     width: 400px;
-    height: 50px;
+    height: 80px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -59,14 +60,10 @@ nav a:hover {
     position: relative;
     
 }
-.zoro{
-    width: 40px;
-    height: 50px;
-}
+
 .coverfotodiv-infut-wrapper{
     
     display: flex;
-  
     position: absolute;
     align-items: center;
 }
@@ -99,29 +96,31 @@ nav a:hover {
 }
 
 .diwwraper2-p2{
+    margin-top: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 22px;
 }
 .diwwraper2-p3{
+    margin-top: 20px;
     font-family:Arial, Helvetica, sans-serif;
 }
 .heart-icon{
     height: 25px;
 }
-/* items style------------ */
+/* items style------------                                  ------------------*/
 #items-container{
     width: 100%;
     height: auto;
-    
+    position: relative;
     display: flex;
     flex-wrap: wrap;
    justify-content: space-around;
    margin-top: 20px;
 }
-
-#items-container>div{
+/* ეს არის თითოეული იტემის ყუთი */
+.oneitemwrapper{ 
     width: 280px;
-    height: 550px;
+    height: 540px;
     margin-top: 30px;
     border: 2px solid rgb(235, 229, 216);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
@@ -129,30 +128,182 @@ nav a:hover {
 #items-container>div>img{
     width: 280px;
     height: 230px;
-   
+    margin-bottom: 20px;
 
 }
 #items-container>div>h2{
    margin-left: 10px;
+   margin-bottom: 10px;
 }
 #items-container>div>h3{
     color: #858585;
     font-size: 13px;
     margin-left: 10px;
+    margin-bottom: 30px;
 }
 
 #items-container>div>p{
-    max-width: 200px;
+    width: 95%;
     margin-left: 10px;
 
     color: #212121;
 }
+
+.itemprice{
+    width: 100%;
+    font-size: 15px;
+}
+/* ეს აკეთებს ხაზის გავლებას ქვემოდან დივის */
+.itemprice::after {
+    content: "";
+     border: 1px solid #9fac9d;
+      width: 100%;
+     display: block;
+     margin-top: 15px;
+    }
+
+.itemprice::before {
+    content: "";
+        border: 1px solid #9fac9d;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+#items-container>div>p::after {
+    content: "";
+    border: 1px solid #9fac9d;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 #items-container>div>button{
     background-color: #ffc107;
     border:  none;
     cursor: pointer;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 30%;
+    color: #FFFFFF;
+}
+
+/* აქ გავჩერდი- გამოაქ კლიკზე დესცრიპტშენ იფორმცია, გასაწერი მაქ ზ ინდექსი, პოსიცია ზემოდან რო იყოს */
+
+
+.dialogdesc{
+    
+    display: flex;
+    margin-top: 100px; 
+
+}
+#dialogwrapper>div>img{
+    width: 500px;
+    height: 500px;
+}
+
+/* dialogis stilebi */
+
+#dialogwrapper {
+    display: none;
+    position:  absolute;
+    width: 80%;
+    height: 700px;
+    border-radius: 20px 20px 0px 0px ;
+    top: 50%;
+    left: 50%;
+    background-color: #F0F3FF;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+   
+        
+        
+  }
+  
+  .dialogheader{
+    
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px ;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    
+
+
+background: #07A4C5;
+  }
+
+.dialogheader>h2{
+    width: 100px;
+    height: 18px;
+    margin-left: 20px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-feature-settings: 'case' on;
+    color: #FFFFFF;
+}
+.dialogbt{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.dialogbt>img{
+    background: #07A4C5;
+    
+}
+
+
+/* section 3 */
+
+.section3{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    background: url('images/sect3/sec3-img.jpg') ;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sect3-img{
+    position: absolute;
+    max-width: 300px;
+    height: 350px;
+}
+
+.section5{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    background: url('images/sect5/tac9.jpg') ;
+    height: 450px;
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5_p{
+    width: 630px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 23px;
+    vertical-align: baseline;
+    font-family: 'Work Sans', sans-serif;
 }

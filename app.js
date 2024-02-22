@@ -1,12 +1,12 @@
 var data = [
-    { id: 1, img:'/images/div1/nicosia.jpg', button: 'Book Now',title:'14 Days North Spain', title2:'Bilbao, San Sebastian, Pamplona', price:'from 1590', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', },
-    { id: 2, img:'/images/div1/barcelona.jpg', button: 'Book Now',title:'4 Days Barcelona', title2:'Barcelona, Mediterranean', price:'from 543', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry2.', },
-    { id: 3, img:'/images/div1/sardina.jpg', button: 'Book Now',title:'8 Days Sardinia Break', title2:'Costa Brava, Girona', price:'from 1027', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry3.', },
-    { id: 4, img:'/images/div1/azores.jpg', button: 'Book Now',title:'9 Days Azores Islands', title2:'San Miguel, Pico, Faial', price:'from 1580', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', },
-    { id: 5, img:'/images/div1/nicosia.jpg', button: 'Book Now',title:'2 Days in Nicosia', title2:'Weekend in Nicosia', price:'from 139', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', },
-    { id: 6, img:'/images/div1/besparmk.jpg', button: 'Book Now',title:'7 Days Besparmak Trail', title2:'Walking vacation in North Cyprus', price:'from 798', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', },
-    { id: 7, img:'/images/div1/barcelona.jpg', button: 'Book Now',title:'3 Days Northern Cyprus', title2:'Famagusta, Nicosia, Kyrenia', price:'from 411', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', },
-    { id: 8, img:'/images/div1/lisabon.jpg', button: 'Book Now',title:'3 Days in Lisbon', title2:'Lisbon and Sintra', price:'from 349', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', },
+    { id: 1, img:'/images/div1/nicosia.jpg', button: 'Book Now',title:'14 Days North Spain', title2:'Bilbao, San Sebastian, Pamplona', price:'from 1590 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs..',description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.'},
+    { id: 2, img:'/images/div1/barcelona.jpg', button: 'Book Now',title:'4 Days Barcelona', title2:'Barcelona, Mediterranean', price:'from 543 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs.2.', description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.'},
+    { id: 3, img:'/images/div1/sardina.jpg', button: 'Book Now',title:'8 Days Sardinia Break', title2:'Costa Brava, Girona', price:'from 1027 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs.3.',description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.' },
+    { id: 4, img:'/images/div1/azores.jpg', button: 'Book Now',title:'9 Days Azores Islands', title2:'San Miguel, Pico, Faial', price:'from 1580 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs..',description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.' },
+    { id: 5, img:'/images/div1/nicosia.jpg', button: 'Book Now',title:'2 Days in Nicosia', title2:'Weekend in Nicosia', price:'from 139 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs..', description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.'},
+    { id: 6, img:'/images/div1/besparmk.jpg', button: 'Book Now',title:'7 Days Besparmak Trail', title2:'Walking vacation in North Cyprus', price:'from 798 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs..', description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.'},
+    { id: 7, img:'/images/div1/barcelona.jpg', button: 'Book Now',title:'3 Days Northern Cyprus', title2:'Famagusta, Nicosia, Kyrenia', price:'from 411 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs..',description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.' },
+    { id: 8, img:'/images/div1/lisabon.jpg', button: 'Book Now',title:'3 Days in Lisbon', title2:'Lisbon and Sintra', price:'from 349 $', description: 'Descended from astronomers another world a still more glorious dawn awaits ship of the imagination citizens of distant epochs..',description2:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.,,,,In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.' },
 
 ];
 
@@ -30,8 +30,11 @@ var data = [
 
     data.forEach(item => {
       var items=document.createElement('div'); // divs ვქმნი იტემბის სურტებს ღილკებს ვტენი შიგნით
+     items.classList.add('oneitemwrapper')
       var button = document.createElement('button'); // ეს ღილაკია იტემის
       button.innerHTML = item.button;
+      button.addEventListener("click", openDialog);//შექმნილ ღილაკზე მივაბი ფუნქცია, დილოგის გახსნა
+     
       button.addEventListener('click', () => showDescription(item.id));
 
 
@@ -47,6 +50,7 @@ var data = [
 
       var price=document.createElement('p')
       price.innerHTML=item.price
+      price.classList.add('itemprice')
       // აქ ვქმნი პარაგრაფს  დესქრიფშენს
       var description = document.createElement('p');
       description.innerHTML = item.description;
@@ -65,14 +69,55 @@ var data = [
       itemsContainer.appendChild(items);
     });
   }
+ 
 
-  // Function to show description
+
+ 
+var dialogwrapper=document.querySelector('#dialogwrapper')
+
+var dialogdescription=document.createElement('div'); //ეს არის დივი აღწერის, რომლიც შვილია ჰტმლ დილოგის დივის, გარეთ უნდა იყოს!!
+
+  // Function to show description-- აქ მოდის, ღილაკის უკან მდგომი დატა, თითოული ღილკისთვის ინდივდ.
   function showDescription(itemId) {
+    
     var selectedItem = data.find(item => item.id === itemId);
     if (selectedItem) {
-      alert(selectedItem.description);
+    
+      // აქ შევქმნი ღილაკზე დაჭერით რა ინფორმცია გამოიტანოს დილოგში, მომიწევს ცალკე დივების შემქნა
+      
+      
+      dialogdescription.classList.add('dialogdesc');
+      
+      
+     dialogdescription.innerHTML =  selectedItem.price + ""+ selectedItem.title +'-----'+ selectedItem.description2  
+      // შექმნილ დივებს გამოვაჩენ , დიალოგის ფანჯარაში
+      
+      dialogwrapper.appendChild(dialogdescription) 
+      
+      
     }
   }
 
   // Initial display
+
   displayItems();
+
+  function openNewPage() {
+    // Change the window location to the new HTML page
+    window.location.href = "description.html";
+}
+
+
+
+  
+  // dialog ----------------------------------------
+  var dialog = document.querySelector("#dialogwrapper");
+
+  function openDialog() {
+    dialog.style.display = "block";
+  }
+
+  function closeDialog() {
+    dialog.style.display = "none";
+    dialogdescription.innerHTML=''
+  }
