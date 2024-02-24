@@ -84,12 +84,25 @@ nav a:hover {
     cursor: pointer;
 }
 /*       meore    divi     მეორე      დივი----- */
+
 .divwrapper2{
-    margin-top: 20px;
+   
     display: flex;
     flex-direction:column;
     width: 100%;
     height: 100px;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+}
+.divwrapper22{
+   
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    
    
     justify-content: center;
     align-items: center;
@@ -107,8 +120,14 @@ nav a:hover {
 .heart-icon{
     height: 25px;
 }
+
+
 /* items style------------                                  ------------------*/
 #items-container{
+    width: 100%;
+   
+}
+#itemList{
     width: 100%;
     height: auto;
     position: relative;
@@ -116,33 +135,34 @@ nav a:hover {
     flex-wrap: wrap;
    justify-content: space-around;
    margin-top: 20px;
+
 }
 /* ეს არის თითოეული იტემის ყუთი */
-.oneitemwrapper{ 
-    width: 280px;
+.item{ 
+    width: 260px;
     height: 540px;
     margin-top: 30px;
-    border: 2px solid rgb(235, 229, 216);
+    
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
-#items-container>div>img{
-    width: 280px;
+.itemimg{
+    width: 260px;
     height: 230px;
     margin-bottom: 20px;
 
 }
-#items-container>div>h2{
+.item>h2{
    margin-left: 10px;
    margin-bottom: 10px;
 }
-#items-container>div>h3{
+.item>h3{
     color: #858585;
     font-size: 13px;
     margin-left: 10px;
     margin-bottom: 30px;
 }
 
-#items-container>div>p{
+.item>p{
     width: 95%;
     margin-left: 10px;
 
@@ -170,17 +190,20 @@ nav a:hover {
         margin-bottom: 15px;
     }
 
-#items-container>div>p::after {
+.description::after {
     content: "";
     border: 1px solid #9fac9d;
     width: 100%;
     display: block;
     margin-top: 15px;
     margin-bottom: 15px;
+   
 }
 
 
-#items-container>div>button{
+
+
+.itembutton{
     background-color: #ffc107;
     border:  none;
     cursor: pointer;
@@ -191,81 +214,6 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-/* აქ გავჩერდი- გამოაქ კლიკზე დესცრიპტშენ იფორმცია, გასაწერი მაქ ზ ინდექსი, პოსიცია ზემოდან რო იყოს */
-
-
-.dialogdesc{
-    
-    display: flex;
-    margin-top: 100px; 
-
-}
-#dialogwrapper>div>img{
-    width: 500px;
-    height: 500px;
-}
-
-/* dialogis stilebi */
-
-#dialogwrapper {
-    display: none;
-    position:  absolute;
-    width: 80%;
-    height: 700px;
-    border-radius: 20px 20px 0px 0px ;
-    top: 50%;
-    left: 50%;
-    background-color: #F0F3FF;
-    padding: 20px;
-    transform: translate(-50%, -50%);
-   
-        
-        
-  }
-  
-  .dialogheader{
-    
-    width: 100%;
-    height: 58px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 20px 20px 0px 0px ;
-    position: absolute;
-    margin-top: -20px;
-    margin-left: -20px;
-    
-
-
-background: #07A4C5;
-  }
-
-.dialogheader>h2{
-    width: 100px;
-    height: 18px;
-    margin-left: 20px;
-    top: 20px;
-    font-family: 'FiraGO';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    font-feature-settings: 'case' on;
-    color: #FFFFFF;
-}
-.dialogbt{
-    width: 24px;
-    height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    
-}
-.dialogbt>img{
-    background: #07A4C5;
-    
-}
 
 
 /* section 3 */
@@ -284,10 +232,79 @@ background: #07A4C5;
     position: absolute;
     max-width: 300px;
     height: 350px;
+
 }
 
+
+/*----------------------------- conteiner 4 - item 2------------------------- */
+
+#items-container2{
+    margin-top: 80px;
+}
+#itemList2{
+    display: flex;
+    width: 100%;
+    height: 270px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 20px;
+ 
+}
+.item2{
+    position: relative;
+    height: 290px;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemimg2{
+    max-width: 290px;
+    height: 280px;
+    position: absolute;
+}
+
+.item2title{
+    position: absolute;
+    color: white;
+    margin-top:195px;
+    margin-left: 20px;
+    font-size: larger;
+    font-size: 20px;
+   
+}
+.item2icon{
+    width: 100px;
+    color: wheat;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top:232px;
+    margin-left: 20px;
+}
+.itemprice2from{
+    position: absolute;
+    color: white;
+    margin-top:234px;
+    margin-left: 50px;
+    font-size: larger;
+    font-size: 14px;
+}
+.itemprice2{
+    position: absolute;
+    color: white;
+    margin-top:230px;
+    margin-left: 90px;
+    font-size: larger;
+    font-size: 20px;
+}
+/*------------------------ section5 ------------*/
 .section5{
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
     width: 100%;
     background: url('images/sect5/tac9.jpg') ;
@@ -306,4 +323,58 @@ background: #07A4C5;
     font-size: 23px;
     vertical-align: baseline;
     font-family: 'Work Sans', sans-serif;
+}
+/* section6-div1-wrapper--------------------- */
+.section6-div1-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #003580;
+    height: 220px;
+}
+
+.section6-div1-wrapper-textwrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 220px;
+    height: 200px;
+    align-items: center;
+   
+    
+}
+
+.section6-div-1-imgbacground{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #4fc3f7;
+    border-radius: 50px;
+
+}
+.section6-div1-img{
+    width: 30px;
+    height: 30px;
+   
+    
+}
+
+
+
+.section6-div1-h3{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section6-div1-p{
+    width: 200px;
+    color: #d5cdcd;
+    text-align: center;
+    
+    
 }
