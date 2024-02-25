@@ -10,8 +10,9 @@
     // Get the item details container
     const itemDetailsContainer = document.getElementById("itemDetails");
 
-    // Display item details
+    
     const itemDetailsElement = document.createElement("div");
+    itemDetailsElement.classList.add('detailwrapper')
     itemDetailsElement.innerHTML = `
         <h1>${title}</h1>
         <img src="${image}" alt="${title}" style="max-width: 100%;">
