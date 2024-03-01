@@ -17,5 +17,12 @@
 .detailwrapper>h2{
     max-width: 800px;
 }
+/*-------------- footer -------------------*/
 
 
+.footer{
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+    border: 2px solid red;
+}
