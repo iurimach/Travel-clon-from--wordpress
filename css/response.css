@@ -10,5 +10,21 @@
     width: 100px;
 
    }
+   .coverfotodiv-infut-wrapper{
+      width: 90%;
+   }
+   .coverbutton{
+      margin-top: 10px;
+   }
+   .footercentr{
+      flex-wrap: wrap;
+   }
+    .footerheader{
+      flex-wrap: wrap;
+      height: auto;
+    }
+    footer{
+      height: auto;
+    }
   
   }
