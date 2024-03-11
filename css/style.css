@@ -65,8 +65,10 @@ nav a:hover {
 .coverfotodiv-infut-wrapper{
     
     display: flex;
+    justify-content: center;
     position: absolute;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .coverfotodiv-infut{
@@ -425,7 +427,7 @@ footer{
 .footerspan{
     font-size: 13px;
     color: white;
-    margin-left: 8px;
+    margin-left: 5px;
     
 }
 
@@ -499,6 +501,7 @@ footer{
     display: flex;
     color: white;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 

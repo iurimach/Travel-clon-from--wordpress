@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+   
+   .section6-div1-wrapper{
+    height: auto;
+   }
+   .services,.about,.headercontact_p{
+    display: none;
+   }
+   .headerlogo>a>img{
+    width: 100px;
+
+   }
+  
+  }
